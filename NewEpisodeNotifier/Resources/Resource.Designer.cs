@@ -45,7 +45,10 @@ namespace NewEpisodeNotifier
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int ic_cached_black_24dp = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int Icon = 2130837505;
 			
 			static Drawable()
 			{
@@ -57,11 +60,48 @@ namespace NewEpisodeNotifier
 			}
 		}
 		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f070002
+			public const int edit_toolbar = 2131165186;
+			
+			// aapt resource value: 0x7f070001
+			public const int main_content = 2131165185;
+			
+			// aapt resource value: 0x7f070003
+			public const int menu_refresh = 2131165187;
+			
+			// aapt resource value: 0x7f070005
+			public const int menu_today = 2131165189;
+			
+			// aapt resource value: 0x7f070006
+			public const int menu_tomorrow = 2131165190;
+			
+			// aapt resource value: 0x7f070004
+			public const int menu_yesterday = 2131165188;
+			
+			// aapt resource value: 0x7f070000
+			public const int toolbar = 2131165184;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
 		public partial class Layout
 		{
 			
 			// aapt resource value: 0x7f030000
 			public const int Main = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int toolbar = 2130903041;
 			
 			static Layout()
 			{
@@ -69,6 +109,25 @@ namespace NewEpisodeNotifier
 			}
 			
 			private Layout()
+			{
+			}
+		}
+		
+		public partial class Menu
+		{
+			
+			// aapt resource value: 0x7f060000
+			public const int edit_menus = 2131099648;
+			
+			// aapt resource value: 0x7f060001
+			public const int top_menus = 2131099649;
+			
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Menu()
 			{
 			}
 		}
@@ -88,6 +147,22 @@ namespace NewEpisodeNotifier
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int MyTheme = 2131034112;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
 			{
 			}
 		}
